@@ -1,4 +1,4 @@
 {
-    "jwtPrivateKey": "helpMyInterviews_jwtPrivateKey",
-    "db": "helpMyInterviews_db"
+    "jwtPrivateKey": "helpmyinterviews_jwtPrivateKey",
+    "db": "helpmyinterviews_db"
 }
