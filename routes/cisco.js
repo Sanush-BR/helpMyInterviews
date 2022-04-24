@@ -33,7 +33,6 @@ router.post('/',[auth,admin],async(req,res)=>{
 });
 
 router.put('/:id',[auth,admin],async(req,res) => {
-    console.log(req); 
     const {error} = validate(req.body);
     if(error) return res.status(400).send(error.details[0].message);
 
